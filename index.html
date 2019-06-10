@@ -14,109 +14,215 @@
         />
     </head>
     <body>
-        <!---Name & Nav, large: nebeneinander, small: untereinander-->
-        <header class="row align-items-center bg-warning">
-            <div class="col-12 col-sm-6 ">
-                <h1 class="font-weight-lighter p-2">
-                    Marwin <strong>Buresch</strong>
-                </h1>
-            </div>
+        <div class="container-fluid">
+            <header class="row align-items-center bg-warning">
+                <div class="col-12 col-sm-8">
+                    <h1 class="font-weight-lighter">
+                        Marwin <strong>Buresch</strong>
+                    </h1>
+                </div>
 
-            <div class="col-sm-6">
-                <nav>
-                    <ul
-                        class="nav justify-content-start justify-content-sm-end"
-                    >
-                        <li class="nav-item">
-                            <a
-                                href="#kontakt"
-                                class="nav-link text-dark p-1 m-1"
-                                >Kontakt</a
-                            >
-                        </li>
-                        <li class="nav-item">
-                            <a href="#bio" class="nav-link text-dark p-1 m-1"
-                                >Biografie</a
-                            >
-                        </li>
-                    </ul>
-                </nav>
-            </div>
-        </header>
-
-        <!-- -->
-        <section class="row">
-            <!-- Image card. large: hälfte small: ganz-->
-            <div class="col col-12 col-sm-6">
-                <div class="card bg-light m-1">
-                    <div class="card-body">
-                        <figure>
-                            <a href="" class=""
-                                ><img
+                <div class="col-sm-4">
+                    <nav>
+                        <ul
+                            class="nav nav-pills justify-content-start justify-content-sm-end"
+                        >
+                            <li class="nav-item">
+                                <a
+                                    href="#contact"
+                                    class="nav-link text-dark p-1 mr-2 mb-2 border border-white"
+                                    >Contact</a
+                                >
+                            </li>
+                            <li class="nav-item">
+                                <a
+                                    href="#bio"
+                                    class="nav-link text-dark p-1 border border-white"
+                                    >Biography</a
+                                >
+                            </li>
+                        </ul>
+                    </nav>
+                </div>
+            </header>
+        </div>
+        <div class="container fixed-width">
+            <section class="row">
+                <div class="col col-12 col-sm-6">
+                    <div class="card bg-white border-white m-1">
+                        <div class="card-body">
+                            <figure>
+                                <img
                                     src="/res/MBprofile.jpg"
                                     alt="Marwin Buresch"
                                     class="img-fluid border border-dark rounded-sm"
-                            /></a>
-                        </figure>
-                        <h5 class="card-title">About me</h5>
-                        <p class="card-text">
-                            I enjoy both the virtual and the real world by
-                            utilising, honing and indulging my senses. I am also
-                            fond of beer and cheese.
-                        </p>
+                                />
+                            </figure>
+                            <h5 class="card-title">About me</h5>
+                            <p class="card-text">
+                                I enjoy both the virtual and the real world by
+                                utilising, honing and indulging my senses. I am
+                                also fond of beer and cheese.
+                            </p>
+                        </div>
                     </div>
                 </div>
-            </div>
-            <!-- Skills & Whatnot -->
-            <div class="col col-12 col-sm-6 mb-1">
-                <div class="card bg-light  m-1">
-                    <div class="card-body">
-                        <h5 class="card-title">Skills</h5>
-                        <p class="card-text">
-                            many skills yes
-                        </p>
-                    </div>
-                </div>
-            </div>
-        </section>
 
-        <!-- Kontakt Info-->
-        <section>
-            <div class="row bg-warning justify-content-around">
+                <div class="col col-12 col-sm-6 mb-1">
+                    <div class="card bg-white border-white  m-1">
+                        <div class="card-body">
+                            <h5 class="card-title">
+                                WebDev Skills
+                            </h5>
+                            <p class="card-text">
+                                <span class="badge badge-success"
+                                    >basic shell</span
+                                >
+                                <span class="badge badge-secondary"
+                                    >markdown</span
+                                >
+                                <span class="badge badge-secondary"
+                                    >git/GitHub</span
+                                >
+                                <span class="badge badge-primary">HTML</span>
+                                <span class="badge badge-warning"
+                                    >bootstrap 4</span
+                                >
+                                <span class="badge badge-warning">CSS</span>
+                            </p>
+                        </div>
+                    </div>
+                    <div class="card bg-white border-white  m-1">
+                        <div class="card-body">
+                            <h5 class="card-title">
+                                Languages (CEFR-rating)
+                            </h5>
+                            <p class="card-text">
+                                <ul class="list-group list-group-flush">
+                                    <li class="list-group-item">
+                                        German
+                                        <span class="badge badge-pill badge-info"
+                                            >native-speaker</span
+                                        >
+                                    </li>
+
+                                    <li class="list-group-item">
+                                            English
+                                            <span class="badge badge-pill badge-success"
+                                                >C1</span
+                                            >
+                                    </li>
+
+                                    <li class="list-group-item">
+                                            Dutch
+                                            <span class="badge badge-pill badge-warning"
+                                                >B2</span
+                                            >
+                                    </li>
+                                    
+                                    <li class="list-group-item">
+                                            French
+                                            <span class="badge badge-pill badge-secondary"
+                                                >A1</span
+                                            >
+                                    </li>
+                                </ul>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </div>
+        <div class="container fixed-width">
+            <section id="contact" class="row bg-warning justify-content-around">
                 <div class="col col-6">
                     <div
-                        class="card text-white bg-warning border-warning"
+                        class="card text-white text-center bg-warning border-warning"
                         style="max-width: 18rem;"
                     >
                         <div class="card-body">
                             <p class="card-text">
                                 <i class="fas fa-mobile-alt pr-2 text-dark"></i
-                                >0162 63 68 095
+                                ><a href="tel:0162 12 34 567" class="text-dark"
+                                    >0162 12 34 567</a
+                                >
                             </p>
                         </div>
                     </div>
                 </div>
                 <div class="col col-6">
                     <div
-                        class="card text-white bg-warning border-warning"
+                        class="card text-white text-center bg-warning border-warning"
                         style="max-width: 18rem;"
                     >
                         <div class="card-body">
                             <p class="card-text">
                                 <i class="far fa-envelope pr-2 text-dark"></i
-                                >marwin@posteo.de
+                                ><a
+                                    href="mailto:marwin@posteo.de"
+                                    class="text-dark"
+                                    >marwin@posteo.de</a
+                                >
                             </p>
                         </div>
                     </div>
                 </div>
+            </section>
+        </div>
+        <div class="container fixed-width">
+            <section class="row mt-2 pl-2 pr-2 bg-secondary align-items-center">
+                <div class="col col-12 col-sm-4 mt-2 mb-2">
+                    <a href="https://codepen.io/marwinburesch/">
+                        <div class="card border-dark  p-3 pt-2">
+                            <img
+                                class="card-img-top img-fluid"
+                                src="/res/codepen.svg"
+                                alt="codepen profile"
+                            /></div
+                    ></a>
+                </div>
+                <div class="col col-12 col-sm-4 mt-2 mb-2">
+                    <a href="https://github.com/marwinburesch">
+                        <div class="card border-dark p-3">
+                            <img
+                                class="card-img-top img-fluid"
+                                src="/res/github.svg"
+                                alt="GitHub profile"
+                            /></div
+                    ></a>
+                </div>
+                <div class="col col-12 col-sm-4 mt-2 mb-2">
+                    <a
+                        href="https://www.linkedin.com/in/marwin-buresch-34654b16a/"
+                    >
+                        <div class="card border-dark p-3">
+                            <img
+                                class="card-img-top img-fluid"
+                                src="/res/linkedin.svg"
+                                alt="codepen profile"
+                            /></div
+                    ></a>
+                </div>
+            </section>
+
+            <div class="container fixed-width">
+                <section class="row mt-1">
+                    <div class="col col-12 col-sm-6 mt-1">
+                        <div class="card border border-warning">
+                            <h5 class="card-title">Biography</h5>
+                            <p class="card-text">
+                                
+                            </p>
+
+                        </div>
+                    </div>
+                    <div class="col col-12 col-sm-6 mt-2 mt-sm-1">
+                        <div class="card border border-warning">
+                            Biography
+                        </div>
+                    </div>
+                </section>
             </div>
-        </section>
-
-        <!-- -->
-        <section>
-            codepen profile GitHub profile LinkedIn profile
-        </section>
-
-        <section>Biografie</section>
+        </div>
     </body>
 </html>
